@@ -1,0 +1,45 @@
+.section-1  {
+  background-color: #292C44;
+  height: 250px;
+}
+
+.section-2{
+  background-color: ;
+  height: 250px;
+  padding: 0px;
+}
+
+.section-2-1{
+    background-color: #18CDCA;
+    height: 250px;
+    float: left;
+}
+
+.section-2-2{
+    background-color: #4F80E1;
+    height: 250px;
+    float: left;
+}
+
+.section-2-3{
+    background-color: #FF5349;
+    height: 250px;
+    float: left;
+}
+
+.footer {
+  background-color: #292C44;
+  height: 100px;
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.section2{
+  max-resolution: 100%;
+  height: auto;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
