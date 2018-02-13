@@ -7,9 +7,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('[data-toggle="popover-3"]').popover({title: "<h5><code>Atividades desenvolvidas</code></h5>",content: "<p>-Nas experiências profissionais não relacionadas à TI desenvolvi habilidades de gestão, trabalho em equipe, getsão da qualidade e como lidar com clientes. Além disso, foram experiências que me mostraram que o interesse por Tecnologia poderia ser mais que um hobby.</p>", html: true, placement: "right"});
+    $('[data-toggle="popover-3"]').popover({title: "<h5><code>Atividades desenvolvidas</code></h5>",content: "<p>-Nas experiências profissionais não relacionadas à TI desenvolvi habilidades de gestão, trabalho em equipe, gestão da qualidade e como lidar com clientes. Além disso, foram experiências que me mostraram que o interesse por Tecnologia poderia ser mais que um hobby, pois tive a oportunidade de participar de etapas de desenvolvimento de sistemas desde levantamento de requisitos até testes de software.</p>", html: true, placement: "right"});
 });
 
-$(document).ready(function(){
-    $('[data-toggle="popover-4"]').popover({title: "<h5><code>Atividades desenvolvidas</code></h5>",content: "<p>-Durante a monitora tive a oportunidade de utilizar <code>HTML</code>, <code>JS</code>, <code>PHP</code> e <code>CSS</code> junto com o <code>WORDPRESS</code> para criar uma ferramenta de gameficação da respectiva disciplina. Está ferramenta irá auxiliar o professor ministrar as aulas das próximas turmas.</p>", html: true, placement: "right"});
-});
+// $(document).ready(function() {
+//     $( "[.fas || .glyphicon]" ).each(function( index ) {
+//       var color = $(this).parent().css("background-color");
+//       $(this).css("-webkit-text-stroke","2px ")
+//     });
+// });

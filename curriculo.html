@@ -5,54 +5,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Currículo</title>
 </head>
-<body>
-  <h1>JEFFERSON MENDES SANTOS</h1>
+<body class="curriculo">
+  <h1 class="nome">JEFFERSON MENDES SANTOS</h1>
   <p>Endereço Atual:  Rua Antônio Francisco Filho, 756 – Matão/Sumaré - SP</p>
   <p>Disponibilidade de mudança</p>
   <a href="mailto:mendesJeffersonn@gmail.com">mendesJeffersonn@gmail.com</a>
-  <h6>OBJETIVO:</h6><p>Estágio em TI</p>
+  <h1>OBJETIVO:</h1><p>Estágio em TI</p>
 
-  <h6>QUALIFICAÇÕES</h6>
+  <h1>QUALIFICAÇÕES</h1>
   <ul>
     <li><p>Inglês Avançado</p></li>
     <li><p>Lógica de Programação</p></li>
-    <li><p>JAVA, HTML, JS, PHP, CSS, SQL, C,  Android , OO</p></li>
+    <li><p>JAVA, HTML, JS, PHP, CSS, SQL, C, Android</p></li>
     <li><p>Elaboração de Projetos, SCRUM</p></li>
-    <li><p>Word, Excel, Powerpoint, One Note</p></li>
+    <li><p>Word, Excel, Powerpoint, OneNote</p></li>
   </ul>
-  <h6>FORMAÇÃO ACADÊMICA</h6>
-  <h6>Análise e Desenvolvimento de Sistemas</h6>
+  <h1>FORMAÇÃO ACADÊMICA</h1>
+  <h2>Análise e Desenvolvimento de Sistemas</h2>
   <p>Faculdade de Tecnologia da UNICAMP - Conclusão prevista: dezembro/2018</p>
 
-  <h6>EXPERIÊNCIAS PROFISSIONAIS</h6>
+  <h1>EXPERIÊNCIAS PROFISSIONAIS</h1>
   <div class="container">
-    <p data-toggle="popover-1" data-trigger="hover">Bolsista de Apoio em Lab de Informática Aprendizagem e Gestão (LIAG) UNICAMP </p>
-  </div>
-  <div class="container">
-    <p data-toggle="popover-2" data-trigger="hover">Bolsista de Apoio em Lab de Aplicação e Pesq. em Ensino Tecnológico (LAPET) UNICAMP </p>
-  </div>
-  <div class="container">
-    <p data-toggle="popover-3" data-trigger="hover">
-      </br>Auxiliar Administrativo em Negrini & Negrini Corretora de Seguros Ltda
-      </br>Coordenador Atividades em Evoluti Tecnologia e Serviços Ltda
-      </br>Preparador de Dados em Floripark Empreendimentos e Serviços Ltda
-    </p>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <p data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+              <i class="glyphicon glyphicon-chevron-down glyphicon-light"></i>
+              Bolsista de Apoio em Lab de Informática Aprendizagem e Gestão (LIAG) UNICAMP
+            </p>
+          </h2>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="container">
+            <div class="panel-body">
+              <p>Organizador do Desafio Jovem Engenheiro</p>
+              <p>Responsável pelo Torneio ROBOCODE</p>
+              <p>Desenvolvimento de atividade de apoio à pesquisa e condução de ações do laboratório</p>
+              <p>Apoio ao professor coordenador em atividade de ensino, pesquisas e extensão</p>
+              <p>Auxilio na coordenação</p>
+              <p>Desenvolvimento e aplicação de oficinas de Scratch para crianças</p>
+              <p>Criação e manutenção de páginas web(Wordpress, HTML, PHP, JS, CSS, FTP)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <p data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+              <i class="glyphicon glyphicon-chevron-down"></i>
+              Bolsista de Apoio em Lab de Aplicação e Pesq. em Ensino Tecnológico (LAPET) UNICAMP
+            </p>
+          </h2>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="container">
+            <div class="panel-body">
+              <p>Desenvolvimento de conteúdos para oficina de robótica</p>
+              <p>Auxílio pesquisa e desenvolvimento de IC's</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <p data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+              <i class="glyphicon glyphicon-chevron-down glyphicon-light"></i>
+              Experiências de outras áreas
+            </p>
+          </h2>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="container">
+            <div class="panel-body">
+              <p data-toggle="popover-3" data-trigger="hover">Auxiliar Administrativo em Negrini & Negrini Corretora de Seguros Ltda</br>Coordenador Atividades em Evoluti Tecnologia e Serviços Ltda</br>Preparador de Dados em Floripark Empreendimentos e Serviços Ltda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <h6>ATIVIDADES COMPLEMENTARES</h6>
+  <h1>ATIVIDADES COMPLEMENTARES</h1>
   <div class="container">
-    <p data-toggle="popover-4" data-trigger="hover">Monitoria Desciplinas de Administração da Informática</p>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <p data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+              <i class="glyphicon glyphicon-chevron-down"></i>
+              Monitoria Desciplinas de Administração da Informática
+            </p>
+          </h2>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse in">
+          <div class="container">
+            <div class="panel-body">
+              <p>Durante a monitora tive a oportunidade de utilizar <code>HTML</code>, <code>JS</code>, <code>PHP</code> e <code>CSS</code> junto com o <code>WORDPRESS</code> para criar uma ferramenta de gameficação da respectiva disciplina. Esta ferramenta irá auxiliar o professor ministrar as aulas das próximas turmas.</p>
+              <p>Foi uma oportunidade incrível de aplicar conceitos que estavam sendo aprendidos em um projeto real.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <h6>CURSOS COMPLEMENTARES</h6>
-  <p>Lógica de Programação - Fundação Bradesco</p>
-  <p>Técnico em Pláscticos</p>
-  <p>Técnico em Química</p>
-  <p>Técnico em Desenho Industrial</p>
-
+  <h1>CURSOS COMPLEMENTARES</h1>
+  <div class="container">
+    <p>Lógica de Programação - Fundação Bradesco</p>
+    <p>Técnico em Pláscticos</p>
+    <p>Técnico em Química</p>
+    <p>Técnico em Desenho Industrial</p>
+  </div>
 </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
