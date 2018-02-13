@@ -1,12 +1,23 @@
 body.curriculo{
   font-family: 'Jura', sans-serif;
-  margin: 25px 100px 25px 100px;
+  margin: 25px 150px 25px 150px;
+  font-size: 18px;
 }
+
+h1{
+  color: #4527a5;
+  font-weight: bold;
+}
+
+.pop {
+      background-color: coral;
+      color: #FFFFFF;
+      padding: 25px;
+  }
 
 .nome{
   font-size: 70px;
-  font-weight: bold;
-  margin-left: auto;
+  color: #4527a5;
 }
 
 .glyphicon {
